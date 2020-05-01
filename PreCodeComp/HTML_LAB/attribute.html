@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATTRIBUTE</title>
+</head>
+<body>
+    <h1 style="text-align: center;">ATTRIBUTE</h1>
+    <br> <hr> <br>
+    <table align="center" border="1">
+        <thead>
+            <tr>
+                <th> Tag </th>
+                <th> Attribute </th>
+                <th> Value </th>
+                <th> Description </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- h-->
+            <tr>
+                <!--
+                EX
+                <td rowspan="2">This cell spans two rows</td>
+                <td colspan="3">This second row spans all three columns</td>
+                -->
+                <td><b>&#60;h&#62;</b></td>
+                <td>align</td>
+                <td>left, center, right, justify</td>
+                <td>Not supported in HTML5.
+                    Specifies the alignment of a heading</td>
+            </tr> 
+            <!--------------------End h---------------------------->
+            <!--p-->
+            <tr>
+                <td><b>&#60;p&#62;</b></td>
+                <td>align</td>
+                <td>left, center, right, justify</td>
+                <td>Not supported in HTML5.
+                    Specifies the alignment of the text within a paragraph</td>
+            </tr>
+            <!--------------------End p---------------------------->
+            <!--div-->
+            <tr>
+                <td><b>&#60;div&#62;</b></td>
+                <td>align</td>
+                <td>left, center, right, justify</td>
+                <td>Not supported in HTML5.
+                    Specifies the alignment of the content inside a &#60;div&#62;element </td>
+            </tr>
+            <!---------------------End div--------------------------->
+            <!--img-->
+            <tr>
+                <td rowspan="14" ><b>&#60;img&#62;</b></td>
+                <td>align</td>
+                <td>top, bottom, middle, left, right</td>
+                <td>Not supported in HTML5.
+                    Specifies the alignment of an image according to surrounding elements</td>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td>text</td>
+                <td>Specifies an alternate text for an image</td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5.
+                    Specifies the width of the border around an image</td>
+            </tr>
+            <tr>
+                <td>crossorigin</td>
+                <td>anonymous <br>
+                    use-credentials</td>
+                <td>Allow images from third-party sites that allow cross-origin access to be used with canvas</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>pixels</td>
+                <td>Specifies the height of an image</td>
+            </tr>
+            <tr>
+                <td>hspace</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5.
+                    Specifies the whitespace on left and right side of an image</td>
+            </tr>
+            <tr>
+                <td>ismap</td>
+                <td>ismap</td>
+                <td>Specifies an image as a server-side image-map</td>
+            </tr>
+            <tr>
+                <td>longdesc</td>
+                <td>URL</td>
+                <td>Specifies a URL to a detailed description of an image</td>
+            </tr>
+            <tr>
+                <td>sizes</td>
+                <td></td>
+                <td>Specifies image sizes for different page layouts</td>
+            </tr>
+            <tr>
+                <td>src</td>
+                <td>URL</td>
+                <td>Specifies the URL of an image</td>
+            </tr>
+            <tr>
+                <td>srcset</td>
+                <td>URL</td>
+                <td>Specifies the URL of the image to use in different situations</td>
+            </tr>
+            <tr>
+                <td>usemap</td>
+                <td>#mapname</td>
+                <td>Specifies an image as a client-side image-map</td>
+            </tr>
+            <tr>
+                <td>vspace</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5.
+                    Specifies the whitespace on top and bottom of an image</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>pixels</td>
+                <td>Specifies the width of an image</td>
+            </tr>
+            <!----------------------End img-------------------------->
+            <!--a-->
+            <tr>
+                <td rowspan="14"><b>&#60;a&#62;</b></td>
+                <td>charset</td>
+                <td>char_encoding</td>
+                <td>Not supported in HTML5.
+                    Specifies the character-set of a linked document</td>
+            </tr>
+            <tr>
+                <td>coords</td>
+                <td>coordinates</td>
+                <td>Not supported in HTML5.
+                    Specifies the coordinates of a link</td>
+            </tr>
+            <tr>
+                <td>download</td>
+                <td>filename</td>
+                <td>Specifies that the target will be downloaded when a user clicks on the hyperlink</td>
+            </tr>
+            <tr>
+                <td>href</td>
+                <td>URL</td>
+                <td>Specifies the URL of the page the link goes to</td>
+            </tr>
+            <tr>
+                <td>hreflang</td>
+                <td>language_code</td>
+                <td>Specifies the language of the linked document</td>
+            </tr>
+            <tr>
+                <td>media</td>
+                <td>media_query</td>
+                <td>Specifies what media/device the linked document is optimized for</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>section_name</td>
+                <td>Not supported in HTML5. Use the global id attribute instead.
+                    Specifies the name of an anchor</td>
+            </tr>
+            <tr>
+                <td>ping</td>
+                <td>list_of_URLs</td>
+                <td>Specifies a space-separated list of URLs to which, when the link is followed, post requests with the body ping will be sent by the browser (in the background). Typically used for tracking.</td>
+            </tr>
+            <tr>
+                <td>referrerpolicy</td>
+                <td>
+                    no-referrer <br>
+                    no-referrer-when-downgrade <br>
+                    origin <br>
+                    origin-when-cross-origin <br>
+                    unsafe-url
+                </td>
+                <td>Specifies which referrer to send/td>
+            </tr>
+            <tr>
+                <td>rel</td>
+                <td>
+                    alternate  <br>
+                    author <br>
+                    bookmark <br>
+                    external <br>
+                    help <br>
+                    license <br>
+                    next <br>
+                    nofollow <br>
+                    noreferrer <br>
+                    noopener <br>
+                    prev <br>
+                    search <br>
+                    tag <br>
+                </td>
+                <td>Specifies the relationship between the current document and the linked document</td>
+            </tr>
+            <tr>
+                <td>rev</td>
+                <td>text</td>
+                <td>Not supported in HTML5.
+                    Specifies the relationship between the linked document and the current document</td>
+            </tr>
+            <tr>
+                <td>shape</td>
+                <td>
+                    default <br>
+                    rect <br>
+                    circle <br>
+                    poly <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies the shape of a link</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td>
+                    _blank <br>
+                    _parent <br>
+                    _self <br>
+                    _top <br>
+                    framename <br>
+                </td>
+                <td>Specifies where to open the linked document</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>media_type</td>
+                <td>Specifies the media type of the linked document</td>
+            </tr>
+
+            <!----------------------End a-------------------------->
+            <!--ul-->
+            <tr>
+                <td  rowspan="2" ><b>&#60;ul&#62;</b></td>
+                <td>compact</td>
+                <td>compact</td>
+                <td>Not supported in HTML5.
+                    Specifies that the list should render smaller than normal</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>
+                    disc <br>
+                    square <br>
+                    circle <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies the kind of marker to use in the list</td>
+            </tr>
+            <!----------------------End ul-------------------------->
+            <!--ol-->
+            <tr>
+                <td rowspan="4"><b>&#60;ol&#62;</b></td>
+                <td>compact</td>
+                <td>compact</td>
+                <td>Not supported in HTML5.
+                    Specifies that the list should render smaller than normal</td>
+            </tr>
+            <tr>
+                <td>reversed</td>
+                <td>reversed</td>
+                <td>Specifies that the list order should be descending (9,8,7...)</td>
+            </tr>
+            <tr>
+                <td>start</td>
+                <td>number</td>
+                <td>Specifies the start value of an ordered list</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>
+                    1 <br>
+                    A <br>
+                    a <br>
+                    I <br>
+                    i <br>
+                </td>
+                <td>Specifies the kind of marker to use in the list</td>
+            </tr>
+            <!----------------------End ol-------------------------->
+            <!--table-->
+            <tr>
+                <td rowspan="9"><b>&#60;table&#62;</b></td>
+                <td>align</td>
+                <td>
+                    left <br>
+                    center <br>
+                    right <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies the alignment of a table according to surrounding text</td>
+            </tr>
+            <tr>
+                <td>bgcolor</td>
+                <td>
+                    rgb(x,x,x) <br>
+                    #xxxxxx <br>
+                    colorname <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies the background color for a table</td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>
+                    1 <br>
+                    0 <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies whether or not the table is being used for layout purposes</td>
+            </tr>
+            <tr>
+                <td>cellpadding</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5.
+                    Specifies the space between the cell wall and the cell content</td>
+            </tr>
+            <tr>
+                <td>cellspacing</td>
+                <td>pixels</td>
+                <td>Not supported in HTML5.
+                    Specifies the space between cells</td>
+            </tr>
+            <tr>
+                <td>frame</td>
+                <td>
+                    void <br>
+                    above <br>
+                    below <br>
+                    hsides <br>
+                    lhs <br>
+                    rhs <br>
+                    vsides <br>
+                    box <br>
+                    border <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies which parts of the outside borders that should be visible</td>
+            </tr>
+            <tr>
+                <td>rules</td>
+                <td>
+                    none <br>
+                    groups <br>
+                    rows <br>
+                    cols <br>
+                    all <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies which parts of the inside borders that should be visible</td>
+            </tr>
+            <tr>
+                <td>summary</td>
+                <td>text</td>
+                <td>Not supported in HTML5.
+                    Specifies a summary of the content of a table</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>
+                    pixels <br>
+                    % <br>
+                </td>
+                <td>Not supported in HTML5.
+                    Specifies the width of a table</td>
+            </tr>
+            <!----------------------End table-------------------------->
+            <!--form-->
+            <tr>
+                <td rowspan="9"><b>&#60;form&#62;</b></td>
+                <td>accept</td>
+                <td>file_typedata in table</td>
+                <td>Not supported in HTML5.
+                    Specifies a comma-separated list of file types  that the server accepts (that can be submitted through the file upload)</td>
+            </tr>
+            <tr>
+                <td>accept-charset</td>
+                <td>character_set</td>
+                <td>Specifies the character encodings that are to be used for the form submission</td>
+            </tr>
+            <tr>
+                <td>action</td>
+                <td>URL</td>
+                <td>Specifies where to send the form-data when a form is submitted</td>
+            </tr>
+            <tr>
+                <td>autocomplete</td>
+                <td>
+                    on <br>
+                    off <br>
+                </td>
+                <td>Specifies whether a form should have autocomplete on or off</td>
+            </tr>
+            <tr>
+                <td>enctype</td>
+                <td>
+                    application/x-www-form-urlencoded <br>
+                    multipart/form-data <br>
+                    text/plain <br>
+                </td>
+                <td>Specifies how the form-data should be encoded when submitting it to the server (only for method="post")</td>
+            </tr>
+            <tr>
+                <td>method</td>
+                <td>
+                    get <br>
+                    post <br>
+                </td>
+                <td>Specifies the HTTP method to use when sending form-data</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>text</td>
+                <td>Specifies the name of a form</td>
+            </tr>
+            <tr>
+                <td>novalidate</td>
+                <td>novalidate</td>
+                <td>Specifies that the form should not be validated when submitted</td>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td
+                    >_blank <br>
+                    _self <br>
+                    _parent <br>
+                    _top <br>
+                </td>
+                <td>Specifies where to display the response that is received after submitting the form</td>
+            </tr>
+            <!----------------------End form-------------------------->
+            <!--button-->
+            <tr>
+                <td rowspan="11"><b>&#60;button&#62;</b></td>
+                <td>autofocus</td>
+                <td>autofocus</td>
+                <td>Specifies that a button should automatically get focus when the page loads</td>
+            </tr>
+            <tr>
+                <td>disabled</td>
+                <td>disabled</td>
+                <td>Specifies that a button should be disabled</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>form_id</td>
+                <td>Specifies one or more forms the button belongs to</td>
+            </tr>
+            <tr>
+                <td>formaction</td>
+                <td>URL</td>
+                <td>Specifies where to send the form-data when a form is submitted. Only for type="submit"</td>
+            </tr>
+            <tr>
+                <td>formenctype</td>
+                <td>
+                    application/x-www-form-urlencoded <br>
+                    multipart/form-data <br>
+                    text/plain <br>
+                </td>
+                <td>Specifies how form-data should be encoded before sending it to a server. Only for type="submit"</td>
+            </tr>
+            <tr>
+                <td>formmethod</td>
+                <td>
+                    get <br>
+                    post <br>
+                </td>
+                <td>Specifies how to send the form-data (which HTTP method to use). Only for type="submit"</td>
+            </tr>
+            <tr>
+                <td>formnovalidate</td>
+                <td>formnovalidate</td>
+                <td>Specifies that the form-data should not be validated on submission. Only for type="submit" </td>
+            </tr>
+            <tr>
+                <td>formtarget</td>
+                <td>
+                    _blank
+                    _self <br>
+                    _parent <br>
+                    _top <br>
+                    framename <br>
+                </td>
+                <td>Specifies where to display the response after submitting the form. Only for type="submit"</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>name</td>
+                <td>Specifies a name for the button</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>
+                    button <br>
+                    reset <br>
+                    submit <br>
+                </td>
+                <td>Specifies the type of button</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>text</td>
+                <td>Specifies an initial value for the button</td>
+            </tr>
+            <!----------------------End button-------------------------->
+        </tbody>
+        
+    </table>
+
+    
+</body>
+</html>
