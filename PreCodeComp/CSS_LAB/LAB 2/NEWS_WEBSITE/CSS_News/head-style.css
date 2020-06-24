@@ -1,0 +1,65 @@
+
+header{
+    /* position: fixed;
+    width: 100%; */
+
+}
+/* logo header */
+.head-logo{
+    text-align: center;
+    /* background-image: url('./Image_News/pt_line45_tophead.png'); */
+    background-color: rgb(236, 226, 207);
+    background-repeat: repeat-x;
+    padding-top: 10px;
+    line-height: 36px;
+}
+
+.head-logo img{
+    background-position-x: center;
+    background-position-y: top;
+}
+
+/* navigator header */
+nav.head-menubar-style{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+
+}
+.head-menubar{
+    background-color:  #777777;
+    background-repeat: repeat-x;
+    line-height: 36px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+ul.head-menubar-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+li.head-menu-item{
+    float: left;
+    text-transform: uppercase;
+}
+
+li.head-menu-item a {
+    display: block;
+    color: white;
+    font-weight: 400px;
+    text-align: center;
+    padding-inline: 15px;
+    text-decoration: none;
+  }
+
+  li.head-menu-item a:hover{
+    color: #000000;
+  }

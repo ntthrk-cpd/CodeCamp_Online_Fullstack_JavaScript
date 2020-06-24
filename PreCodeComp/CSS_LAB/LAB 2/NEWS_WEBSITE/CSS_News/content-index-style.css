@@ -1,0 +1,136 @@
+
+section{
+   display: block; 
+
+}
+section img {
+    width: 100%;
+}
+
+/* live tv */
+.live-tv-main-section{
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 18px;
+    height: 0;
+    margin-bottom: 36px;
+
+}
+
+.live-tv-main-section iframe{
+	position: absolute;
+	/* top: 0; */
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* type content style */
+
+.container-content{
+    display : flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+}
+
+.sum-block{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-content .highlight-section,
+.container-content .video-section,
+.container-content .slide-section,
+.container-content .program-rerun-section,
+.container-content .advertise-section,
+.container-content .tend-update-section{
+    margin-bottom: 2em;
+}
+
+.container-content .new-update-section,
+.container-content .sport-section,
+.container-content .entertainment-section,
+.container-content .lifestyle-section{
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.highlight-section{
+    flex: 1;
+}
+.video-section{
+    flex: 1;
+}
+.slide-section{
+    flex: 1;
+}
+.new-update-section{
+    flex: 3;
+}
+.live-tv-section{
+    flex: 1;
+}
+.sport-section{
+    flex: 3;
+}
+.slide-highlight-section{
+    flex: 1;
+}
+.program-rerun-section{
+    flex: 1;
+}
+.entertainment-section{
+    flex: 1;
+}
+.lifestyle-section{
+    flex: 1;
+}
+.tend-update-section{
+    flex: 1;
+}
+.advertise-section{
+    flex: 1;
+}
+
+/* title block style */
+.title-block{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.title-block h4{
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.title-block span,
+.title-block i{
+    font-size: 15px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.title-block i{
+    float: right;
+    padding: 2px;
+}
+
+/* content style */
+.content-block1{
+    display: flex;
+    flex-direction: row;
+}
+
+.centent-item-1{
+    display: inline-block;
+}
+
+.content-block2{
+    display: block;
+}
+.centent-item-2{
+    display: flex;
+}
