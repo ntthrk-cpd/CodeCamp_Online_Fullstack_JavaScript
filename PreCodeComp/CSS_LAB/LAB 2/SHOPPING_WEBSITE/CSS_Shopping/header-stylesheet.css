@@ -1,0 +1,16 @@
+header{  
+
+}
+
+.header-bar-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-contact{
+    justify-content: flex-start;
+}
+
+.header-login{
+    justify-content: flex-end;
+}

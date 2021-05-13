@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          text-align: left;
+        }
+        </style>
+    <title>Lab3 : From</title>
+</head>
+<body>
+    <!---1. ทำแบบฟอร์มสั่ง pizza ดังรูป 
+        https://opentechschool.github.io/python-flask/core/forms.html-->
+
+    <form action="HTML_LAB3.html" method="post"><table>
+        <tr>
+            <th colspan="2" style="text-align: center;">Pizza Shop 2.0</th>
+        </tr> 
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="name"></input></td>
+        </tr>
+        <tr>
+            <th>Topping</th> 
+            <td><input type="radio" name="topping" value="supreme">Supreme</input><br>
+                <input type="radio" name="topping" value="vegetarian">Vegetarian</input><br>
+                <input type="radio" name="topping" value="hawaiian">Hawaiian</input>
+            </td>
+        </tr>
+        <tr>
+            <th>Pizza Sauce</th>
+            <td>
+                <select name="Sauce">
+                    <option value="tomato">Tomato</option>
+                    <option value="barbeque">Barbeque</option>
+                    <option value="mayonnaise">Mayonnaise</option>
+                    <option value="secret">Secret sauce</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Optional Extras</th>
+            <td><input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
+                <input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input></td>
+        </tr>
+        <tr>
+            <th>Delivery Instructions:</th>
+            <td>
+                <textarea name="delivery" cols="50" rows="4"></textarea>
+            </td>
+        </tr>
+         <tr>
+             <td colspan="2">
+                <input type="submit" value="Send my Order">
+             </td>
+
+         </tr>       
+        
+    </table></form>
+</body>
+</html>

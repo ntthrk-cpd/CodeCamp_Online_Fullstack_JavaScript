@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+          border: 1px solid black;
+        }
+        </style>
+    <title>Book Flying</title>
+</head>
+<body>
+    <form style="border: 1px solid black;">
+        <h4>Book Flying</h4> 
+        <table>
+            <tr>
+                <td colspan="2">
+                    Flying from <br>
+                    <select name="flyingFrom " id="">
+                        <option value="Thai">Thailand</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Philippines">Philippines</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    To <br>
+                    <select name="to" id="">
+                        <option value="Thai">Thailand</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Philippines">Philippines</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Departing <br>
+                    <input type="date" name="Departing" id="">
+                </td>
+                <td colspan="2">
+                    Returning <br>
+                    <input type="date" name="Returning" id="">
+                </td>
+            </tr>
+    <tr>
+        <td>
+            Adult <br>
+            <input type="number" name="adult" id="" min="1">
+        </td>
+        <td>
+            child <br>
+            <input type="number" name="child" id="" min="1">
+        </td>
+        <td>
+            Infant <br>
+            <input type="number" name="Infant" id="" min="1">
+        </td>
+        <td>
+            Currency <br>
+            <select name="Currency" id="">
+                <option value="THB">THB</option>
+                <option value="USD">USD</option>
+                <option value="JPY">JPY</option>
+                <option value="EUR">EUR</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <input type="submit" value="Search">
+        </td>
+    </tr>
+        </table>
+
+    </form>
+</body>
+</html>
