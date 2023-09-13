@@ -46,7 +46,7 @@ Nattharika Cheepandung <br>
     - [ ] Display an image that when clicked will link to a search engine of your choice (should be opened in a new window).
     - [ ] Display an image that when clicked will link to itself and will display the image in the browser by itself.
  1. HTML Form  [single file]<br>
-    - [ ] ทำหน้า Form Register ![Form](./images/image_HTML_Form.png)
+    - [ ] ทำหน้า Form Register <br>![Form](./images/image_HTML_Form.png) <br>
     - [ ] บทเรียนเสริม อ่าน Best Practice การใช้ [Form](https://code.tutsplus.com/tutorials/20-html-forms-best-practices-for-beginners--net-6593)
  1. HTML Project [3 Project]<br>
  1. HTML CSS Project <br>
