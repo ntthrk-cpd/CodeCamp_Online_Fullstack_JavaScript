@@ -13,8 +13,3 @@ Nattharika Cheepandung <br>
 
 <hr>
 <br>
-
-### ref.
-https://developer.chrome.com/docs/devtools/network/
-
-
