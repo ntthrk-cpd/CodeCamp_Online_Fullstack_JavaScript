@@ -27,6 +27,18 @@ Nattharika Cheepandung <br>
 |8. |UX/UI          |   |
 |9. |JS00           |   |
 |10. |JavaScript Basic I  |   |
+|&emsp;10.1.|    |[Lab 1](./Homework_CodeCamp5/JavaScriptBasic_I/Lab_1/README.md)   |
+|&emsp;10.2.|    |[Lab 2](./Homework_CodeCamp5/JavaScriptBasic_I/Lab_2/README.md)   |
+|&emsp;10.3.|    |[Exercise 3_1](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise3_1/README.md)   |
+|&emsp;10.4.|    |[Exercise 3_2](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise3_2/README.md)   |
+|&emsp;10.5.|    |[Exercise 4_1](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise4_1/README.md)   |
+|&emsp;10.6.|    |[Exercise 4_2](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise4_2/README.md)   |
+|&emsp;10.7.|    |[Exercise 5_1](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise5_1/README.md)   |
+|&emsp;10.8.|    |[Exercise 6_1](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise6_1/README.md)   |
+|&emsp;10.9.|    |[Exercise 6_2](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise6_2/README.md)   |
+|&emsp;10.10.|    |[Exercise 6_3](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise6_3/README.md)   |
+|&emsp;10.11.|    |[Exercise 6_4](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise6_4/README.md)   |
+|&emsp;10.12.|    |[Homework_1](./Homework_CodeCamp5/JavaScriptBasic_I/Homework_1/README.md)   |
 |11. |JavaScript Basic II  |   |
 |12. |Advanced JavaScript Part I  |   |
 |13. |Advanced JavaScript Part II  |   |
