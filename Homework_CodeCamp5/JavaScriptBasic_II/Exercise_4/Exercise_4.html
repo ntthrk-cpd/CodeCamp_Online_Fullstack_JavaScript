@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            Exercise 4
+        </title>
+    </header>
+    <body>
+
+        <div class="selectJS">
+            <p id="subject" class="subject">เลือกข้อที่ต้องการแสดง</p>
+            <select id="s" onchange="changeRegion(this.value)"></select>
+        </div>
+        
+        <div id="output">
+            <!-- <script id="fileJS type="text/javascript" src="1.js"></script> -->
+        </div>
+        <p id="result" class="res"></p>
+
+        
+        <script type="text/javascript">
+            const s = document.getElementById("s");
+            var options = ["select"];
+          
+            for(let i = 1; i < 25; i++) {
+                options[i] = i;
+            }
+            
+            options.forEach((element, key) => {
+                if (key == 0)
+                    s[key] = new Option(element, s.options.length);
+                else 
+                    s[key] = new Option("ข้อที่ " + element, s.options.length);
+            });
+
+            function changeRegion(value) {
+                //clear
+                let r = document.getElementById("result");
+                r.innerHTML = "";
+
+                let sc = document.createElement("script");
+                sc.type = "text/javascript";
+                sc.src = `${value}.js`;
+                sc.innerHTML = null;
+                sc.id = "fileJS";
+                document.getElementById("output").innerHTML = "";
+                document.getElementById("output").appendChild(sc);
+            }
+        </script>
+    </body>
+</html>

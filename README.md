@@ -40,6 +40,21 @@ Nattharika Cheepandung <br>
 |&emsp;10.11.|    |[Exercise 6_4](./Homework_CodeCamp5/JavaScriptBasic_I/Exercise6_4/README.md)   |
 |&emsp;10.12.|    |[Homework_1](./Homework_CodeCamp5/JavaScriptBasic_I/Homework_1/README.md)   |
 |11. |JavaScript Basic II  |   |
+|&emsp;11.1.|    |[Exercise 1_1](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_1_1/README.md)   |
+|&emsp;11.2.|    |[Exercise 1_2](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_1_2/README.md)   |
+|&emsp;11.3.|    |[Exercise 1_3](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_1_3/README.md)   |
+|&emsp;11.4.|    |[Exercise 1_4](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_1_4/README.md)   |
+|&emsp;11.5.|    |[Exercise 1_5](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_1_5/README.md)   |
+|&emsp;11.6.|    |[Exercise 2_1](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_1/README.md)   |
+|&emsp;11.7.|    |[Exercise 2_2](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_2/README.md)   |
+|&emsp;11.8.|    |[Exercise 2_3](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_3/README.md)   |
+|&emsp;11.9.|    |[Exercise 2_4](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_4/README.md)   |
+|&emsp;11.10.|    |[Exercise 2_5](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_5/README.md)   |
+|&emsp;11.11.|    |[Exercise 2_6](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_2_6/README.md)   |
+|&emsp;11.12.|    |[Exercise 3_1](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_3_1/README.md)   |
+|&emsp;11.13.|    |[Exercise 3_2](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_3_2/README.md)   |
+|&emsp;11.14.|    |[Exercise 4](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_4/README.md)   |
+|&emsp;11.15.|    |[Exercise 6](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_6/README.md)   |
 |12. |Advanced JavaScript Part I  |   |
 |13. |Advanced JavaScript Part II  |   |
 |14. |Javascript for React  |   |

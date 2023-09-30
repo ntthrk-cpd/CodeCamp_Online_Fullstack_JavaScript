@@ -1,0 +1,25 @@
+### CodeCamp # 5 <br>
+Nattharika Cheepandung <br>
+<br>
+<br>
+
+# Exercise 3 #2 Swtich Cases
+
+**แบบฝึกหัด**
+
+    2. 	แปลง Code ดังกล่าวเป็น Switch cases
+
+```javascript
+let a = +prompt('a?', '');
+
+if (a == 0) {
+    alert( 0 );
+}
+if (a == 1) {
+    alert( 1 );
+}
+
+if (a == 2 || a == 3) {
+    alert ( '2,3' );
+}
+```
