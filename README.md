@@ -56,6 +56,21 @@ Nattharika Cheepandung <br>
 |&emsp;11.14.|    |[Exercise 4](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_4/README.md)   |
 |&emsp;11.15.|    |[Exercise 6](./Homework_CodeCamp5/JavaScriptBasic_II/Exercise_6/README.md)   |
 |12. |Advanced JavaScript Part I  |   |
+|&emsp;12.1.|    |[Exercise 1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_1/README.md)   |
+|&emsp;12.2.|    |[Exercise 4.6 #1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.6_1/README.md)   |
+|&emsp;12.3.|    |[Exercise 4.7 #1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.7_1/README.md)   |
+|&emsp;12.4.|    |[Exercise 4.7 #2](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.7_2/README.md)   |
+|&emsp;12.5.|    |[Exercise 4.18 #1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.18_1/README.md)   |
+|&emsp;12.6.|    |[Exercise 4.18 #2](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.18_2/README.md)   |
+|&emsp;12.7.|    |[Exercise 4.18 #3](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.18_3/README.md)   |
+|&emsp;12.8.|    |[Exercise 4.18 #4](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.18_4/README.md)   |
+|&emsp;12.9.|    |[Exercise 4.18 #5](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_4.18_5/README.md)   |
+|&emsp;12.10.|    |[Exercise 6 #1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_6.6_1/README.md)   |
+|&emsp;12.11.|    |[Exercise 6 #2](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_6.6_2/README.md)   |
+|&emsp;12.12.|    |[Exercise 6 #3](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_6.6_3/README.md)   |
+|&emsp;12.13.|    |[Exercise 6 #4](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_6.6_4/README.md)   |
+|&emsp;12.14.|    |[Exercise 7 #1](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_7.4_1/README.md)   |
+|&emsp;12.15.|    |[Exercise 7 #2](./Homework_CodeCamp5/AdvancedJavaScriptPartI/Exercise_7.4_2/README.md)   |
 |13. |Advanced JavaScript Part II  |   |
 |14. |Javascript for React  |   |
 |15. |React Introduction  |   |
